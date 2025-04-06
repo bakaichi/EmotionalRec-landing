@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #111;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Header section with gradient */
+  .gradient-header {
+    padding: 60px 20px 140px;
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    max-width: 90%;
+    margin: 0 auto 12px;
+  }
+  
+  .main-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .profile-img.large {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -110px;
+    background-color: #1c1c1e;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+  
+  /* Body section after header */
+  .profile-section {
+    padding-top: 130px;
+    background-color: #1c1c1e;
+    text-align: center;
+  }
+  
+  .author {
+    font-size: 16px;
+    font-weight: 600;
+    color: #aaa;
+    margin-bottom: 30px;
+  }
+  
+  /* Link list section */
+  .link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0 auto 60px;
+    max-width: 500px;
+    padding: 0 20px;
+  }
+  
+  .link-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    padding-bottom: 12px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+  }
+  
+  .link-item:hover {
+    opacity: 0.9;
+  }
+  
+  .link-item img {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    border-radius: 8px;
+    object-fit: contain;
+  }
+  
+  .link-item span {
+    flex: 1;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .link-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #888;
+  }
+  
